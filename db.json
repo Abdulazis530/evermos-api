@@ -17,16 +17,36 @@
             "categoryName": "Sepatu"
         }
     ],
-    "comments": [
+    "products": [
         {
-            "id": 1,
-            "body": "some comment",
-            "postId": 1
+            "productId": 1,
+            "categoryId": 1,
+            "productName": "Baju Muslim",
+            "price": "100000",
+            "discount": null,
+            "rate": 5,
+            "seller": "Cahaya Ilahi",
+            "city": "Bandung"
         },
         {
-            "id": 2,
-            "body": "some comment",
-            "postId": 1
+            "productId": 2,
+            "categoryId": 1,
+            "productName": "Jaket Bomber",
+            "price": "125000",
+            "discount": null,
+            "rate": 5,
+            "seller": "Kaula Muda Store",
+            "city": "Bandung"
+        },
+        {
+            "productId": 2,
+            "categoryId": 1,
+            "productName": "Jaket Bomber",
+            "price": "125000",
+            "discount": null,
+            "rate": 5,
+            "seller": "Kaula Muda Store",
+            "city": "Bandung"
         }
     ],
     "profile": {
