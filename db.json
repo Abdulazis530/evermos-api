@@ -1,44 +1,20 @@
 {
-    "Category": [
+    "category": [
         {
             "categoryId": 1,
-            "busanaPria": [
-                {
-                    "productId": 1,
-                    "productName": "Baju Muslim",
-                    "price": "100000",
-                    "discount": null,
-                    "rate": 5,
-                    "seller": "Cahaya Ilahi",
-                    "city": "Bandung"
-                },
-                {
-                    "productId": 2,
-                    "productName": "Jaket Bomber",
-                    "price": "125000",
-                    "discount": null,
-                    "rate": 5,
-                    "seller": "Kaula Muda Store",
-                    "city": "Bandung"
-                },
-                {
-                    "productId": 2,
-                    "productName": "Jaket Bomber",
-                    "price": "125000",
-                    "discount": null,
-                    "rate": 5,
-                    "seller": "Kaula Muda Store",
-                    "city": "Bandung"
-                }
-            ]
+            "categoryName": "Busana Pria"
         },
         {
-            "id": 2,
-            "title": "Post 2"
+            "categoryId": 2,
+            "categoryName": "Busana Wanita"
         },
         {
-            "id": 3,
-            "title": "Post 3"
+            "categoryId": 3,
+            "categoryName": "Mainan Anak"
+        },
+        {
+            "categoryId": 4,
+            "categoryName": "Sepatu"
         }
     ],
     "comments": [
