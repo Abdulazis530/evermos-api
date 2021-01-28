@@ -21,35 +21,634 @@
         {
             "id": 1,
             "categoryId": 1,
+            "categoryName": "Busana Pria",
             "productName": "Baju Muslim",
-            "price": "100000",
+            "price": 100000,
             "discount": null,
             "rate": 5,
             "seller": "Cahaya Ilahi",
-            "city": "Bandung"
+            "city": "Bandung",
+            "images": [
+                "/static/images/baju-muslim-1.jpg",
+                "/static/images/baju-muslim-2.jpg",
+                "/static/images/baju-muslim-3.jpg"
+            ],
+            "weight": 100,
+            "condition": "new",
+            "variant": [
+                "merah",
+                "kuning",
+                "hijau"
+            ],
+            "description": "Baju muslim kualitas terbaik cocok digunakan untuk solat jum'at, pengajian, dan lebaran. Terbuat dari katun pilihan, halus, lembut dan nyaman di kulit."
         },
         {
             "id": 2,
             "categoryId": 1,
+            "categoryName": "Busana Pria",
             "productName": "Jaket Bomber",
-            "price": "125000",
-            "discount": null,
+            "price": 125000,
+            "discount": 25,
             "rate": 5,
             "seller": "Kaula Muda Store",
-            "city": "Bandung"
+            "city": "Bandung",
+            "images": [
+                "/static/images/jaket-1.jpg",
+                "/static/images/jaket-2.jpg",
+                "/static/images/jaket-3.jpg",
+                "/static/images/jaket-4.jpg",
+                "/static/images/jaket-5.jpg"
+            ],
+            "weight": 125,
+            "condition": "new",
+            "variant": [
+                "navy",
+                "kuning",
+                "hitam",
+                "cokelat"
+            ],
+            "description": "Jaket bomber keren kekinian, kualitas oke, bahan lembut, dan cocok untuk udara dingin atau panas."
         },
         {
             "id": 3,
-            "categoryId": 2,
-            "productName": "Jaket Bomber",
-            "price": "125000",
+            "categoryId": 1,
+            "categoryName": "Busana Pria",
+            "productName": "Kaos belang aneka warna",
+            "price": 90000,
+            "discount": 10,
+            "rate": 5,
+            "seller": "Setiasa Sehat Store",
+            "city": "Jogja",
+            "images": [
+                "/static/images/kaos-belang-1.jpg",
+                "/static/images/kaos-belang-2.jpg",
+                "/static/images/kaos-belang-3.jpg",
+                "/static/images/kaos-belang-4.jpg",
+                "/static/images/kaos-belang-5.jpg"
+            ],
+            "weight": 100,
+            "condition": "new",
+            "variant": [
+                "putih",
+                "hitam",
+                "kuning",
+                "merah",
+                "biru"
+            ],
+            "description": "Kaos belang, kaya uler weling eeeits tapi masih keren kok cocok untuk kamu yang ingin terlihat keren tapi simple, yuk dibeli yuk. Kain dibuat menggunakan ulat wol pilihan terbaik yang dilatih oleh sun go kong sehingga kualitas kain yang dihasilkan MANTAP!"
+        },
+        {
+            "id": 4,
+            "categoryId": 1,
+            "categoryName": "Busana Pria",
+            "productName": "Kaos distro gaul",
+            "price": 135000,
+            "discount": null,
+            "rate": 4.5,
+            "seller": "The beat store",
+            "city": "Jakarta",
+            "images": [
+                "/static/images/kaos-distro-1.jpg",
+                "/static/images/kaos-distro-2.jpg",
+                "/static/images/kaos-distro-3.jpg",
+                "/static/images/kaos-distro-4.jpg",
+                "/static/images/kaos-distro-5.jpg"
+            ],
+            "weight": 100,
+            "condition": "new",
+            "variant": [
+                "hitam",
+                "hijau",
+                "biru",
+                "merah",
+                "putih"
+            ],
+            "description": "Pokoknya mantap, barang ga bagus uang kembali!"
+        },
+        {
+            "id": 5,
+            "categoryId": 1,
+            "categoryName": "Busana Pria",
+            "productName": "Kaos lengan panjang",
+            "price": 70000,
             "discount": null,
             "rate": 5,
-            "seller": "Kaula Muda Store",
-            "city": "Bandung"
+            "seller": "Bismillah store",
+            "city": "Jakarta",
+            "images": [
+                "/static/images/kaos-panjang-1.jpg",
+                "/static/images/kaos-panjang-2.jpg",
+                "/static/images/kaos-panjang-3.jpg",
+                "/static/images/kaos-panjang-4.jpg"
+            ],
+            "weight": 100,
+            "condition": "new",
+            "variant": [
+                "hitam",
+                "biru",
+                "merah",
+                "hijau"
+            ],
+            "description": "Kaos lengan panjang kualitas terjamin dibuat dengan menggunakan cinta dan kasih kasih sayang."
+        },
+        {
+            "id": 6,
+            "categoryId": 1,
+            "categoryName": "Busana Pria",
+            "productName": "Kaos polos ukuran S",
+            "price": 40000,
+            "discount": null,
+            "rate": 5,
+            "seller": "Superhero store",
+            "city": "Jakarta",
+            "images": [
+                "/static/images/kaos-polos-1.jpg",
+                "/static/images/kaos-polos-2.jpg",
+                "/static/images/kaos-polos-3.jpg",
+                "/static/images/kaos-polos-4.jpg",
+                "/static/images/kaos-polos-5.jpg"
+            ],
+            "weight": 80,
+            "condition": "new",
+            "variant": [
+                "abu",
+                "biru",
+                "merah",
+                "hijau",
+                "cokelat"
+            ],
+            "description": "Kaos polos sangat cocok untuk dipadukan dengan jaket, simple dan trendy."
+        },
+        {
+            "id": 6,
+            "categoryId": 1,
+            "categoryName": "Busana Pria",
+            "productName": "Kaos polos katun bambu",
+            "price": 70000,
+            "discount": null,
+            "rate": 5,
+            "seller": "Saung bambu store",
+            "city": "Bandung",
+            "images": [
+                "/static/images/kaos-polos-katun-bambu-1.jpg",
+                "/static/images/kaos-polos-katun-bambu-2.jpg",
+                "/static/images/kaos-polos-katun-bambu-3.jpg",
+                "/static/images/kaos-polos-katun-bambu-4.jpg",
+                "/static/images/kaos-polos-katun-bambu-5.jpg"
+            ],
+            "weight": 80,
+            "condition": "new",
+            "variant": [
+                "any color"
+            ],
+            "description": "Kaos polos katun bambu, lembut banget, bahan sejuk dibuat dengan bahan alami ramah lingukan"
+        },
+        {
+            "id": 7,
+            "categoryId": 2,
+            "categoryName": "Busana Wanita",
+            "productName": "Rok panjang muslimah trendy",
+            "price": 70000,
+            "discount": 10,
+            "rate": 4.75,
+            "seller": "Anisa store",
+            "city": "Depok",
+            "images": [
+                "/static/images/busana-wanita-1.jpg"
+            ],
+            "weight": 80,
+            "condition": "new",
+            "variant": [
+                "cokelat",
+                "biru muda",
+                "abu"
+            ],
+            "description": "Rok muslimah trendy bahan lembut nyaman dan halus"
+        },
+        {
+            "id": 8,
+            "categoryId": 2,
+            "categoryName": "Busana Wanita",
+            "productName": "Gaun anggun muslimah",
+            "price": 80000,
+            "discount": null,
+            "rate": 5,
+            "seller": "Dewi store",
+            "city": "Depok",
+            "images": [
+                "/static/images/busana-wanita-2.jpg"
+            ],
+            "weight": 90,
+            "condition": "new",
+            "variant": [
+                "pink",
+                "ungu"
+            ],
+            "description": "Busana anggun, jahitan rapi, dibuat dengan kualitas kain terbaik."
+        },
+        {
+            "id": 9,
+            "categoryId": 2,
+            "categoryName": "Busana Wanita",
+            "productName": "Gaun bunga",
+            "price": 90000,
+            "discount": null,
+            "rate": 5,
+            "seller": "Anggun store",
+            "city": "Jakarta",
+            "images": [
+                "/static/images/busana-wanita-3.jpg"
+            ],
+            "weight": 90,
+            "condition": "new",
+            "variant": [
+                "biru"
+            ],
+            "description": "Busana model bunga-bunga dibuat dengan kain tenun terbaik."
+        },
+        {
+            "id": 10,
+            "categoryId": 2,
+            "categoryName": "Busana Wanita",
+            "productName": "Muslimah bussiness trendy",
+            "price": 120000,
+            "discount": 5,
+            "rate": 5,
+            "seller": "Istimewa store",
+            "city": "Bandung",
+            "images": [
+                "/static/images/busana-wanita-4.jpg"
+            ],
+            "weight": 100,
+            "condition": "new",
+            "variant": [
+                "cokelat"
+            ],
+            "description": "Cocok untuk muda-mudi, bahan dibuat dengan kualitas pilihan sehingga terasa lembut dan warna tidak mudah luntur"
+        },
+        {
+            "id": 10,
+            "categoryId": 2,
+            "categoryName": "Busana Wanita",
+            "productName": "Busana muslim kantoran",
+            "price": 90000,
+            "discount": null,
+            "rate": 5,
+            "seller": "Kembang store",
+            "city": "Garut",
+            "images": [
+                "/static/images/busana-wanita-5.jpg"
+            ],
+            "weight": 90,
+            "condition": "new",
+            "variant": [
+                "hitam",
+                "cokelat",
+                "abu",
+                "merah"
+            ],
+            "description": "Simple, trendy, dan berkualitas tinggi"
+        },
+        {
+            "id": 11,
+            "categoryId": 3,
+            "categoryName": "Mainan Anak",
+            "productName": "Dokter-dokteran: si ompong",
+            "price": 200000,
+            "discount": 30,
+            "rate": 4.25,
+            "seller": "Happy kids store",
+            "city": "Bekasi",
+            "images": [
+                "/static/images/mainan-1.jpg"
+            ],
+            "weight": 250,
+            "condition": "new",
+            "variant": [
+                "biru"
+            ],
+            "description": "Mainan dokter gigi, awet, dan dapat meningkatkan kreativitas anak anda, untuk usia diatas 3 tahun."
+        },
+        {
+            "id": 12,
+            "categoryId": 3,
+            "categoryName": "Mainan Anak",
+            "productName": "Lego",
+            "price": 150000,
+            "discount": null,
+            "rate": 5,
+            "seller": "Nabawi store",
+            "city": "Jogjakarta",
+            "images": [
+                "/static/images/mainan-2.jpg"
+            ],
+            "weight": 250,
+            "condition": "new",
+            "variant": [
+                "pink"
+            ],
+            "description": "Mainan lego, awet, dan dapat meningkatkan kreativitas anak anda, untuk usia diatas 3 tahun."
+        },
+        {
+            "id": 13,
+            "categoryId": 3,
+            "categoryName": "Mainan Anak",
+            "productName": "Aneka Kuda-kudaan",
+            "price": 100000,
+            "discount": null,
+            "rate": 5,
+            "seller": "Kuda liar store",
+            "city": "Tangerang",
+            "images": [
+                "/static/images/mainan-3.jpg"
+            ],
+            "weight": 500,
+            "condition": "new",
+            "variant": [
+                "ungu",
+                "biru",
+                "pink",
+                "merah",
+                "kuning",
+                "hijau"
+            ],
+            "description": "Mainan kuda-kudaan, awet, dan dapat meningkatkan kreativitas anak anda, untuk usia diatas 3 tahun."
+        },
+        {
+            "id": 14,
+            "categoryId": 3,
+            "categoryName": "Mainan Anak",
+            "productName": "Perosotan",
+            "price": 1000000,
+            "discount": 10,
+            "rate": 5,
+            "seller": "Amazing store",
+            "city": "Surabaya",
+            "images": [
+                "/static/images/mainan-4.jpg"
+            ],
+            "weight": 5000,
+            "condition": "new",
+            "variant": [
+                "ungu",
+                "biru",
+                "pink",
+                "merah"
+            ],
+            "description": "Mainan perosotan, cocok untuk mendekatkan anak-anak, awet dan tersedia garansi untuk 3 tahun."
+        },
+        {
+            "id": 15,
+            "categoryId": 4,
+            "categoryName": "Sepatu",
+            "productName": "New age local brand",
+            "price": 300000,
+            "discount": 10,
+            "rate": 5,
+            "seller": "Ambarawa store",
+            "city": "Ambarawa",
+            "images": [
+                "/static/images/sepatu-1.jpg"
+            ],
+            "weight": 400,
+            "condition": "new",
+            "variant": [
+                "hitam",
+                "hijau",
+                "kuning",
+                "merah",
+                "navy",
+                "abu"
+            ],
+            "description": "Sepatu brand lokal kekinian murah dan awet."
+        },
+        {
+            "id": 16,
+            "categoryId": 4,
+            "categoryName": "Sepatu",
+            "productName": "Sepatu kulit Cibaduyut",
+            "price": 200000,
+            "discount": null,
+            "rate": 5,
+            "seller": "Kang ucup store",
+            "city": "Bandung",
+            "images": [
+                "/static/images/sepatu-2.jpg",
+                "/static/images/sepatu-3.jpg"
+            ],
+            "weight": 400,
+            "condition": "new",
+            "variant": [
+                "hitam",
+                "cokelat"
+            ],
+            "description": "Sepatu kulit brand lokal asli Cibaduyut kekinian murah dan awet."
+        },
+        {
+            "id": 17,
+            "categoryId": 4,
+            "categoryName": "Sepatu",
+            "productName": "Adidas A212",
+            "price": 350000,
+            "discount": 10,
+            "rate": 5,
+            "seller": "Nando store",
+            "city": "Bandung",
+            "images": [
+                "/static/images/sepatu-4.jpg"
+            ],
+            "weight": 400,
+            "condition": "new",
+            "variant": [
+                "hitam"
+            ],
+            "description": "Sepatu adidas brand terbaru kekinian murah dan awet."
+        },
+        {
+            "id": 18,
+            "categoryId": 4,
+            "categoryName": "Sepatu",
+            "productName": "Hak wanita",
+            "price": 350000,
+            "discount": 5,
+            "rate": 5,
+            "seller": "Trans store",
+            "city": "Bandung",
+            "images": [
+                "/static/images/sepatu-5.jpg"
+            ],
+            "weight": 400,
+            "condition": "new",
+            "variant": [
+                "cream"
+            ],
+            "description": "Sepatu hak brand terbaru kekinian murah dan awet."
+        },
+        {
+            "id": 19,
+            "categoryId": 4,
+            "categoryName": "Sepatu",
+            "productName": "Nike Air Max",
+            "price": 450000,
+            "discount": 25,
+            "rate": 5,
+            "seller": "Gozi store",
+            "city": "Bogor",
+            "images": [
+                "/static/images/sepatu-6.jpg",
+                "/static/images/sepatu-7.jpg"
+            ],
+            "weight": 400,
+            "condition": "new",
+            "variant": [
+                "hitam",
+                "biru"
+            ],
+            "description": "Sepatu Nike brand terbaru kekinian murah dan awet."
         }
     ],
-    "profile": {
-        "name": "typicode"
-    }
+    "favorites": [
+        {
+            "id": 2,
+            "categoryId": 1,
+            "categoryName": "Busana Pria",
+            "productName": "Jaket Bomber",
+            "price": 125000,
+            "discount": 25,
+            "rate": 5,
+            "seller": "Kaula Muda Store",
+            "city": "Bandung",
+            "images": [
+                "/static/images/jaket-1.jpg",
+                "/static/images/jaket-2.jpg",
+                "/static/images/jaket-3.jpg",
+                "/static/images/jaket-4.jpg",
+                "/static/images/jaket-5.jpg"
+            ],
+            "weight": 125,
+            "condition": "new",
+            "variant": [
+                "navy",
+                "kuning",
+                "hitam",
+                "cokelat"
+            ],
+            "description": "Jaket bomber keren kekinian, kualitas oke, bahan lembut, dan cocok untuk udara dingin atau panas."
+        },
+        {
+            "id": 16,
+            "categoryId": 4,
+            "categoryName": "Sepatu",
+            "productName": "Sepatu kulit Cibaduyut",
+            "price": 200000,
+            "discount": null,
+            "rate": 5,
+            "seller": "Kang ucup store",
+            "city": "Bandung",
+            "images": [
+                "/static/images/sepatu-2.jpg",
+                "/static/images/sepatu-3.jpg"
+            ],
+            "weight": 400,
+            "condition": "new",
+            "variant": [
+                "hitam",
+                "cokelat"
+            ],
+            "description": "Sepatu kulit brand lokal asli Cibaduyut kekinian murah dan awet."
+        },
+        {
+            "id": 7,
+            "categoryId": 2,
+            "categoryName": "Busana Wanita",
+            "productName": "Rok panjang muslimah trendy",
+            "price": 70000,
+            "discount": 10,
+            "rate": 4.75,
+            "seller": "Anisa store",
+            "city": "Depok",
+            "images": [
+                "/static/images/busana-wanita-1.jpg"
+            ],
+            "weight": 80,
+            "condition": "new",
+            "variant": [
+                "cokelat",
+                "biru muda",
+                "abu"
+            ],
+            "description": "Rok muslimah trendy bahan lembut nyaman dan halus"
+        },
+        {
+            "id": 15,
+            "categoryId": 4,
+            "categoryName": "Sepatu",
+            "productName": "New age local brand",
+            "price": 300000,
+            "discount": 10,
+            "rate": 5,
+            "seller": "Ambarawa store",
+            "city": "Ambarawa",
+            "images": [
+                "/static/images/sepatu-1.jpg"
+            ],
+            "weight": 400,
+            "condition": "new",
+            "variant": [
+                "hitam",
+                "hijau",
+                "kuning",
+                "merah",
+                "navy",
+                "abu"
+            ],
+            "description": "Sepatu brand lokal kekinian murah dan awet."
+        },
+        {
+            "id": 14,
+            "categoryId": 3,
+            "categoryName": "Mainan Anak",
+            "productName": "Perosotan",
+            "price": 1000000,
+            "discount": 10,
+            "rate": 5,
+            "seller": "Amazing store",
+            "city": "Surabaya",
+            "images": [
+                "/static/images/mainan-4.jpg"
+            ],
+            "weight": 5000,
+            "condition": "new",
+            "variant": [
+                "ungu",
+                "biru",
+                "pink",
+                "merah"
+            ],
+            "description": "Mainan perosotan, cocok untuk mendekatkan anak-anak, awet dan tersedia garansi untuk 3 tahun."
+        },
+        {
+            "id": 10,
+            "categoryId": 2,
+            "categoryName": "Busana Wanita",
+            "productName": "Busana muslim kantoran",
+            "price": 90000,
+            "discount": null,
+            "rate": 5,
+            "seller": "Kembang store",
+            "city": "Garut",
+            "images": [
+                "/static/images/busana-wanita-5.jpg"
+            ],
+            "weight": 90,
+            "condition": "new",
+            "variant": [
+                "hitam",
+                "cokelat",
+                "abu",
+                "merah"
+            ],
+            "description": "Simple, trendy, dan berkualitas tinggi"
+        }
+    ]
 }
