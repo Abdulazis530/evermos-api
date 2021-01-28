@@ -1,25 +1,25 @@
 {
     "category": [
         {
-            "categoryId": 1,
+            "id": 1,
             "categoryName": "Busana Pria"
         },
         {
-            "categoryId": 2,
+            "id": 2,
             "categoryName": "Busana Wanita"
         },
         {
-            "categoryId": 3,
+            "id": 3,
             "categoryName": "Mainan Anak"
         },
         {
-            "categoryId": 4,
+            "id": 4,
             "categoryName": "Sepatu"
         }
     ],
     "products": [
         {
-            "productId": 1,
+            "id": 1,
             "categoryId": 1,
             "productName": "Baju Muslim",
             "price": "100000",
@@ -29,7 +29,7 @@
             "city": "Bandung"
         },
         {
-            "productId": 2,
+            "id": 2,
             "categoryId": 1,
             "productName": "Jaket Bomber",
             "price": "125000",
@@ -39,7 +39,7 @@
             "city": "Bandung"
         },
         {
-            "productId": 2,
+            "id": 3,
             "categoryId": 1,
             "productName": "Jaket Bomber",
             "price": "125000",
